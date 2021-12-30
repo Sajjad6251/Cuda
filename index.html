@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSD to HTML Practice</title>
+    <link rel="shortcut icon" href="resources/img/favicon.png" type="image/x-icon">
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="font_awesome/all.min.css">
+    <link rel="stylesheet" href="font_awesome/fontawesome.min.css">
+    <!--Vendors CSS File-->
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <!--Resources CSS File-->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+</head>
+<body>
+
+
+<!-- Start HEADER section -->
+<header class="header_area" id="home">
+    <div class="navigtion_bar">
+        <div class="container">
+            <div class="logo"><a href="#home"><img src="resources/img/cuda_logo.png" alt="Cuda"></a></div>
+            <nav>
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#team">team</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#testimonial">testimonial</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile_menu">
+                <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+                <div id="mobile_nav" class="overlay">
+                    <a class="close_btn" href="javascript:void(0)" onclick="closeNav()"><i class="fas fa-times"></i></a>
+                    <div class="overlay_mobile_menu">
+                        <a onclick="closeNav()" href="#home">home</a>
+                        <a onclick="closeNav()" href="#services">services</a>
+                        <a onclick="closeNav()" href="#team">team</a>
+                        <a onclick="closeNav()" href="#skills">skills</a>
+                        <a onclick="closeNav()" href="#portfolio">portfolio</a>
+                        <a onclick="closeNav()" href="#testimonial">testimonial</a>
+                        <a onclick="closeNav()" href="#contact">contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="heading_text">
+            <h1>Hi there! We are the new kids on the block and we build awesome websites and mobile apps.</h1>
+            <a href="#contact" class="btn">WORK WITH US!</a>
+        </div>
+    </div>
+</header>
+<!-- End HEADER section -->
+
+
+<!-- Start SERVICES section -->
+<section class="servicer_area create_sticky_menu" id="services">
+    <div class="container">
+        <div class="services_text">
+            <h2>SERVICES WE PROVIDE</h2>
+            <p class="paragraph">We are working with both individuals and businesses from all over the globe to create awesome websites and applications.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="services_detail">
+            <div class="services_box col span_1_of_4">
+                <img src="resources/img/service_01.png" alt="Flag">
+                <h3>Branding</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+            </div>
+            <div class="services_box col span_1_of_4">
+                <img src="resources/img/service_02.png" alt="Pencil">
+                <h3>Design</h3>
+                <p>Sed ut perspiciatis unde omnis omnis omnis iste natus error sit voluptatem</p>
+            </div>
+            <div class="services_box col span_1_of_4">
+                <img src="resources/img/service_03.png" alt="Gear">
+                <h3>Development</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+            </div>
+            <div class="services_box col span_1_of_4">
+                <img src="resources/img/service_04.png" alt="Rocket">
+                <h3>ROCKET SCIENCE</h3>
+                <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End SERVICES section -->
+
+
+<!-- Start TEAM section -->
+<section class="team_area" id="team">
+    <div class="container">
+        <div class="team_text">
+            <h2>MEET OUR BEAUTIFUL TEAM</h2>
+            <p class="paragraph">We are a small team of designers and developers, who help brands with big ideas.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="team_detail">
+            <div class="team_box col span_1_of_4">
+                <img src="resources/img/person_01.png" alt="">
+                <h3>ANNE HATHAWAY</h3>
+                <span>CEO / Marketing Guru</span>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                <div class="social_icon">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="team_box col span_1_of_4">
+                <img src="resources/img/person_02.png" alt="">
+                <h3>Kate Upton</h3>
+                <span>Creative Director</span>
+                <p>Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
+                <div class="social_icon">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="team_box col span_1_of_4">
+                <img src="resources/img/person_03.png" alt="">
+                <h3>Olivia Wilde</h3>
+                <span>Lead Designer</span>
+                <p>Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                <div class="social_icon">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="team_box col span_1_of_4">
+                <img src="resources/img/person_04.png" alt="">
+                <h3>Ashley Greene</h3>
+                <span>SEO / Developer</span>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                <div class="social_icon">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End TEAM section -->
+
+
+<!-- Start SKILLS section -->
+<section class="skills_area" id="skills">
+    <div class="container">
+        <div class="team_text">
+            <h2>WE GOT SKILLS!</h2>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="skills_details">
+            <div class="skills_box col span_1_of_4">
+                <svg class="radial-progress web_design" data-percentage="90" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+                </svg>
+                <h3>Web Design</h3>
+            </div>
+            <div class="skills_box col span_1_of_4">
+                <svg class="radial-progress html_css" data-percentage="75" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+                </svg>
+                <h3>HTML / CSS</h3>
+            </div>
+            <div class="skills_box col span_1_of_4">
+                <svg class="radial-progress graphic_design" data-percentage="70" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+                </svg>
+                <h3>GRAPHIC DESIGN</h3>
+            </div>
+            <div class="skills_box col span_1_of_4">
+                <svg class="radial-progress ui_ux" data-percentage="85" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+                </svg>
+                <h3>UI / UX</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End SKILLS section -->
+
+
+<!-- Start PORTFOLIO section -->
+<section class="portfolio_area" id="portfolio">
+    <div class="container">
+        <div class="portfolio_text">
+            <h2>OUR PORTFOLIO</h2>
+            <p class="paragraph">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam</p>
+        </div>
+    </div>
+    <div class="conatiner">
+        <div class="portfolio_button">
+            <button type="button" data-filter="all">all</button>
+            <button type="button" data-filter=".web">web</button>
+            <button type="button" data-filter=".apps">apps</button>
+            <button type="button" data-filter=".icons">icons</button>
+        </div>
+    </div>
+    <div class="container portfolio_detail">
+        <div class="portfolio_detail">
+            <div class="portfolio_box col span_1_of_2 mix apps">
+                <img src="resources/img/portfolio_01.png" alt="Laptop">
+                <p>Isometric Perspective Mock-Up</p>
+            </div>
+            <div class="portfolio_box col span_1_of_2 mix apps web">
+                <img src="resources/img/portfolio_02.png" alt="Laptop">
+                <p>Time Zone App UI</p>
+            </div>
+            <div class="portfolio_box col span_1_of_2 mix web">
+                <img src="resources/img/portfolio_03.png" alt="Laptop">
+                <p>Viro Media Players UI</p>
+            </div>
+            <div class="portfolio_box col span_1_of_2 mix icons apps">
+                <img src="resources/img/portfolio_04.png" alt="Laptop">
+                <p>Blog / Magazine Flat UI Kit</p>
+            </div>
+            <a href="#contact" class="btn">WORK WITH US!</a>
+        </div>
+    </div>
+</section>
+<!-- End PORTFOLIO section -->
+
+
+<!-- Start TESTIMONIAL section -->
+<section class="testimonial_area" id="testimonial">
+    <div class="container">
+        <div class="testimonial_text">
+            <h2>WHAT POEPLE SAY ABOUT US</h2>
+            <p class="paragraph">Our clients love us!</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="testimonial_box col span_1_of_2">
+            <div class="image">
+                <img src="resources/img/person_05.png" alt="Chanel Iman">
+            </div>
+            <div class="description">
+                <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+                <h4>Chanel Iman</h4>
+                <span>CEO of Pinterest</span>
+            </div>
+        </div>
+        <div class="testimonial_box col span_1_of_2">
+            <div class="image">
+                <img src="resources/img/person_06.png" alt="ADRIANA LIMA">
+            </div>
+            <div class="description">
+                <p>“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
+                <h4>ADRIANA LIMA</h4>
+                <span>Founder of Instagram</span>
+            </div>
+        </div>
+        <div class="testimonial_box col span_1_of_2">
+            <div class="image">
+                <img src="resources/img/person_07.png" alt="ANNE HATHAWAY">
+            </div>
+            <div class="description">    
+                <p>“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
+                <h4>ANNE HATHAWAY</h4>
+                <span>Lead Designer at Behance</span>
+            </div>
+        </div>
+        <div class="testimonial_box col span_1_of_2">
+            <div class="image">
+                <img src="resources/img/person_08.png" alt="EMMA STONE">
+            </div>
+            <div class="description">    
+                <p>“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.”</p>
+                <h4>EMMA STONE</h4>
+                <span>Co-Founder of Shazam</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End TESTIMONIAL section -->
+
+
+<!-- Start CONTACT section -->
+<section class="contact_area" id="contact">
+    <div class="container">
+        <div class="contact_text">
+            <h2>GET IN TOUCH</h2>
+            <p class="paragraph">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+        </div>
+        <div class="container">
+            <form action="#" method="POST">
+                <input class="form_box col span_1_of_2" type="text" placeholder="Your Name *" required>
+                <input class="form_box col span_1_of_2" type="email" placeholder="Your Email *" required>
+                <textarea placeholder="Your Message *" required></textarea>
+                <input type="button" value="SEND MESSAGE" class="btn">
+            </form>
+        </div>
+    </div>
+</section>
+<!-- End CONTACT section -->
+
+
+<!-- Start FOOTER section -->
+<footer class="footer_area">
+    <div class="container">
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Google+</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Behance</a></li>
+            <li><a href="#">Dribbble</a></li>
+            <li><a href="#">GitHub</a></li>
+        </ul>
+    </div>
+</footer>
+<!-- End FOOTER section -->
+
+
+
+
+
+
+
+    <!--Vendors Java Script File-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="vendors/js/html5shiv.min.js"></script>
+    <script src="vendors/js/respond.min.js"></script>
+    <script src="vendors/js/selectivizr.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="vendors/js/animated-circle.js"></script>
+    <script src="vendors/js/mixitup.min.js"></script>
+
+    <!--Resources Java Script File-->
+
+    <script src="resources/js/main.js"></script>
+</body>
+</html>
